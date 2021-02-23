@@ -1,0 +1,180 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 10668,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2637,
+      "max": [
+        1.0,
+        0.395517349243164,
+        0.388951450586319
+      ],
+      "min": [
+        -1.0,
+        -0.395517349243164,
+        -0.388951480388641
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2637,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2637,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.2.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 42672,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 31644,
+      "byteOffset": 42672,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 31644,
+      "byteOffset": 74316,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 21096,
+      "byteOffset": 105960,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 127056,
+      "uri": "Shoes02.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Shoes_baseColor.png"
+    },
+    {
+      "uri": "Shoes_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "Shoes_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "Shoes",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Abros_Shoes",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "Shoes01.obj",
+      "scale": [
+        0.249091491103172,
+        0.249091491103172,
+        0.249091491103172
+      ],
+      "translation": [
+        -0.0180924981832504,
+        0.0977580025792122,
+        5.0663948059082e-07
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "g Abros_Shoes"
+    },
+    {
+      "mesh": 0,
+      "name": "Abros_Shoes"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
