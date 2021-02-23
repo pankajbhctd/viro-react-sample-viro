@@ -19,7 +19,7 @@ export default class Shoes extends Component {
     // Set initial state here
     this.state = {
       text: "Initializing AR...",
-      position: [0, 0, -2],
+      position: [0, 0, -1],
       scale: [1, 1, 1],
       rotation: [0, 0, 0]
     };
@@ -36,12 +36,12 @@ export default class Shoes extends Component {
   render() {
     return (
       <Viro3DObject
-        source={require("./res/abros/Shoes01.gltf")}
+        source={require("./res/new-abros/Shoes02.gltf")}
         scale={this.state.scale}
         position={this.state.position}
         type="GLTF"
         style={styles.helloWorldTextStyle}
-        dragType={"FixedToWorld"}
+        // dragType={"FixedToPlane"}
         onClick={console.log("Pankaj")}
         onPinch={this._onPinch}
         onDrag={this._onDrag}

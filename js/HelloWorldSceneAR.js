@@ -10,7 +10,8 @@ import {
   Viro3DObject,
   ViroAmbientLight,
   ViroCamera,
-  ViroOrbitCamera
+  ViroOrbitCamera,
+  ViroARPlaneSelector
 } from "react-viro";
 
 export default class HelloWorldSceneAR extends Component {
@@ -27,8 +28,8 @@ export default class HelloWorldSceneAR extends Component {
           position={[0, 0, -1]}
           style={styles.helloWorldTextStyle}
         /> */}
-        <ViroAmbientLight color="#ffffff" intensity={900} />
-        {/* <ViroCamera position={[0, 0, 0]} rotation={[45, 0, 0])} active={true} /> */}
+        <ViroAmbientLight color="#ffffff" intensity={200} />
+        {/* <ViroCamera position={[0, 0, 0]} rotation={[45, 0, 0]} active={true} /> */}
 
         <ViroOrbitCamera
           position={[0, 0, 0]}
@@ -37,7 +38,7 @@ export default class HelloWorldSceneAR extends Component {
         />
 
         <Shoes></Shoes>
-        <Shoes></Shoes>
+        {/* <Shoes></Shoes> */}
       </ViroARScene>
     );
   }
